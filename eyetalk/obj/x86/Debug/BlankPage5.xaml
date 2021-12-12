@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="eyetalk.BlankPage5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:eyetalk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.GazeInteraction"
+    gaze:GazeInput.Interaction="Enabled"
+    gaze:GazeInput.IsCursorVisible="True"
+    gaze:GazeInput.IsSwitchEnabled="False"
+    gaze:GazeInput.CursorRadius="30"
+    gaze:GazeInput.DwellDuration="00:00:00.3000000"
+    
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <MediaElement x:ConnectionId='2' Name="media"  Visibility="Collapsed"/>
+        <Button x:ConnectionId='3' x:Name="a00" Content="SPACE" Height="132" Margin="993,384,0,0" VerticalAlignment="Top" Width="130"  RenderTransformOrigin="0.554,-0.178" FontSize="36"                  />
+        <Button x:ConnectionId='4' x:Name="a0a" Content="A" FontSize="36" HorizontalAlignment="Stretch" Margin="178,237,971,0" VerticalAlignment="Top" Height="70"                   />
+        <Button x:ConnectionId='5' x:Name="a0b" Content="B" FontSize="36" HorizontalAlignment="Stretch" Margin="178,307,971,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='6' x:Name="a0c" Content="C" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="178,377,971,274"                  />
+        <Button x:ConnectionId='7' x:Name="a0d" Content="D" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="178,446,971,204"                  />
+        <Button x:ConnectionId='8' x:Name="a0e" Content="E" FontSize="36" HorizontalAlignment="Stretch" Margin="314,237,836,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='9' x:Name="a0f" Content="F" FontSize="36" HorizontalAlignment="Stretch" Margin="314,307,836,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='10' x:Name="a0g" Content="G" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="314,377,836,274"                  />
+        <Button x:ConnectionId='11' x:Name="a0h" Content="H" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="314,446,836,204"                  />
+        <Button x:ConnectionId='12' x:Name="a0i" Content="I" FontSize="36" HorizontalAlignment="Stretch" Margin="450,237,700,0" VerticalAlignment="Top" Height="70"                   />
+        <Button x:ConnectionId='13' x:Name="a0j" Content="J" FontSize="36" HorizontalAlignment="Stretch" Margin="450,307,700,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='14' x:Name="a0k" Content="K" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="450,377,700,274"                  />
+        <Button x:ConnectionId='15' x:Name="a0l" Content="L" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="450,446,700,204"                  />
+        <Button x:ConnectionId='16' x:Name="a0m" Content="M" FontSize="36" HorizontalAlignment="Stretch" Margin="585,238,564,0" VerticalAlignment="Top"  Height="70"                  />
+        <Button x:ConnectionId='17' x:Name="a0n" Content="N" FontSize="36" HorizontalAlignment="Stretch" Margin="585,308,564,0" VerticalAlignment="Top"  Height="70"                  />
+        <Button x:ConnectionId='18' x:Name="a0o" Content="O" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="585,378,564,272"                  />
+        <Button x:ConnectionId='19' x:Name="a0p" Content="P" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="585,448,564,203"                  />
+        <Button x:ConnectionId='20' x:Name="a0q" Content="Q" FontSize="36" HorizontalAlignment="Stretch" Margin="721,238,428,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='21' x:Name="a0r" Content="R" FontSize="36" HorizontalAlignment="Stretch" Margin="721,308,428,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='22' x:Name="a0s" Content="S" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="721,378,428,272"                  />
+        <Button x:ConnectionId='23' x:Name="a0t" Content="T" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="721,448,428,203"                  />
+        <Button x:ConnectionId='24' x:Name="a0u" Content="U" FontSize="36" HorizontalAlignment="Stretch" Margin="857,238,293,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='25' x:Name="a0v" Content="V" FontSize="36" HorizontalAlignment="Stretch" Margin="857,308,293,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='26' x:Name="a0w" Content="W" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="857,378,293,272"                  />
+        <Button x:ConnectionId='27' x:Name="a0x" Content="X" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="857,448,293,203"                  />
+        <Button x:ConnectionId='28' x:Name="a0y" Content="Y" FontSize="36" HorizontalAlignment="Stretch" Margin="993,238,157,0" VerticalAlignment="Top" Height="70"                  />
+        <Button x:ConnectionId='29' x:Name="a0z" Content="Z" FontSize="36" HorizontalAlignment="Stretch" Margin="993,308,157,0" VerticalAlignment="Top" Height="70"                  />
+        <TextBox x:ConnectionId='30' x:Name="Stext" HorizontalAlignment="Left" Margin="178,58,0,0" Text="" VerticalAlignment="Top" Height="148" Width="809" FontSize="36"/>
+        <Button x:ConnectionId='31' Content="SPEAK" Margin="721,552,0,0" VerticalAlignment="Top" FontSize="48" Width="402" Height="110"                     />
+        <Button x:ConnectionId='32' x:Name="sback" Content="BACK" Margin="450,552,0,0" VerticalAlignment="Top" FontSize="48" Width="266" Height="110"                    />
+        <Button x:ConnectionId='33' Content="RETURN" Margin="183,552,0,0" VerticalAlignment="Top" FontSize="48" Width="261" Height="110"                       />
+        <Button x:ConnectionId='34' Content="CLEAN" Margin="993,58,0,0" VerticalAlignment="Top" FontSize="36" Height="148"                       />
+
+    </Grid>
+</Page>
+

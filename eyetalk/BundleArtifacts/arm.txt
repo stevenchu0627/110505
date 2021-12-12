@@ -1,0 +1,2 @@
+MainPackage=C:\Users\newiv\source\repos\eyetalk\eyetalk\bin\ARM\Debug\eyetalk_1.0.0.0_ARM_Debug.msix
+SymbolPackage=E:\new\eyetalk_1.0.0.0_Debug_Test\eyetalk_1.0.0.0_ARM_Debug.appxsym

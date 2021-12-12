@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <Source>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</Source>
+    <SmallTileSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</SmallTileSource>
+    <MediumTileSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</MediumTileSource>
+    <WideTileSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</WideTileSource>
+    <LargeTileSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</LargeTileSource>
+    <AppIconSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</AppIconSource>
+    <SplashScreenSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Arthur\OneDrive\圖片\eye01.jpg</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

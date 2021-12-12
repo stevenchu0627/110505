@@ -1,0 +1,20 @@
+[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-zh-hant-tw"
+"ResourceDimensions"		"language-zh-TW"
+
+[Files]
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\split.pri"			"resources.pri"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\System.Runtime.dll"			"System.Runtime.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Newtonsoft.Json.dll"			"Newtonsoft.Json.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.UI.Xaml.Markup.winmd"			"Microsoft.UI.Xaml.Markup.winmd"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.Toolkit.Uwp.Input.GazeInteraction.dll"			"Microsoft.Toolkit.Uwp.Input.GazeInteraction.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll"			"Microsoft.CognitiveServices.Speech.extension.silk_codec.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.CognitiveServices.Speech.extension.lu.dll"			"Microsoft.CognitiveServices.Speech.extension.lu.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.CognitiveServices.Speech.extension.kws.dll"			"Microsoft.CognitiveServices.Speech.extension.kws.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll"			"Microsoft.CognitiveServices.Speech.extension.audio.sys.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.CognitiveServices.Speech.csharp.dll"			"Microsoft.CognitiveServices.Speech.csharp.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\Microsoft.CognitiveServices.Speech.core.dll"			"Microsoft.CognitiveServices.Speech.core.dll"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\eyetalk.exe"			"eyetalk.exe"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\obj\x64\Debug\PackageLayout\entrypoint\eyetalk.exe"			"entrypoint\eyetalk.exe"

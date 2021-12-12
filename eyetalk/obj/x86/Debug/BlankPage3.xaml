@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="eyetalk.BlankPage3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:eyetalk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <GridView Margin="240,370,240,30" Grid.RowSpan="1" FlowDirection="LeftToRight" UseLayoutRounding="True" FontSize="9" Height="320" Canvas.ZIndex="1" Width="800" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <GridView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                    <GroupStyle.Panel>
+                        <ItemsPanelTemplate>
+                            <VariableSizedWrapGrid/>
+                        </ItemsPanelTemplate>
+                    </GroupStyle.Panel>
+                </GroupStyle>
+            </GridView.GroupStyle>
+            <GridViewItem x:ConnectionId='3' x:Name="a_01" Content="ㄅ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='4' x:Name="a_02" Content="ㄉ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='5' x:Name="a_03" Content="" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='6' x:Name="a_04" Content="" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='7' x:Name="a_05" Content="ㄓ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='8' x:Name="a_06" Content="" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='9' x:Name="a_07" Content="ㄦ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='10' x:Name="a_08" Content="ㄚ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='11' x:Name="a_09" Content="ㄞ" Margin="0,0,0,0" Height="80" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='12' x:Name="a_10" Content="ㄢ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='13' x:Name="a_11" Content="ㄆ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='14' x:Name="a_12" Content="ㄊ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='15' x:Name="a_13" Content="ㄍ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='16' x:Name="a_14" Content="ㄐ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='17' x:Name="a_15" Content="ㄔ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='18' x:Name="a_16" Content="ㄗ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='19' x:Name="a_17" Content="ㄧ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='20' x:Name="a_18" Content="ㄛ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='21' x:Name="a_19" Content="ㄟ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='22' x:Name="a_20" Content="ㄣ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='23' x:Name="a_21" Content="ㄇ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='24' x:Name="a_22" Content="ㄋ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='25' x:Name="a_23" Content="ㄎ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='26' x:Name="a_24" Content="ㄑ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='27' x:Name="a_25" Content="ㄕ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='28' x:Name="a_26" Content="ㄘ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='29' x:Name="a_27" Content="ㄨ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='30' x:Name="a_28" Content="ㄜ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='31' x:Name="a_29" Content="ㄠ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='32' x:Name="a_30" Content="ㄤ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='33' x:Name="a_31" Content="ㄈ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='34' x:Name="a_32" Content="ㄌ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='35' x:Name="a_33" Content="ㄏ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='36' x:Name="a_34" Content="ㄒ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='37' x:Name="a_35" Content="ㄖ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='38' x:Name="a_36" Content="ㄙ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='39' x:Name="a_37" Content="ㄩ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='40' x:Name="a_38" Content="ㄝ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='41' x:Name="a_39" Content="ㄡ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+            <GridViewItem x:ConnectionId='42' x:Name="a_40" Content="ㄥ" Margin="0,0,0,0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Stretch" Width="80" FontSize="48"/>
+        </GridView>
+        <Button Content="Button" HorizontalAlignment="Left" Height="162" Margin="280,169,0,0" VerticalAlignment="Top" Width="219"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="162" Margin="517,169,0,0" VerticalAlignment="Top" Width="224"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="155" Margin="746,176,0,0" VerticalAlignment="Top" Width="204"/>
+        <TextBox HorizontalAlignment="Left" Height="106" Margin="98,36,0,0" Text="TextBox" VerticalAlignment="Top" Width="869"/>
+    </Grid>
+</Page>
+

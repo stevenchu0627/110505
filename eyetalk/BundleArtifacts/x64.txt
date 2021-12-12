@@ -1,0 +1,5 @@
+MainPackage=C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\bin\x64\Debug\eyetalk_1.0.15.0_x64_Debug.msix
+ResourcePack=C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\bin\x64\Debug\eyetalk_1.0.15.0_scale-100.msix
+ResourcePack=C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\bin\x64\Debug\eyetalk_1.0.15.0_scale-125.msix
+ResourcePack=C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\bin\x64\Debug\eyetalk_1.0.15.0_scale-150.msix
+ResourcePack=C:\Users\Arthur\OneDrive\眼動程式\eyetalk\eyetalk\bin\x64\Debug\eyetalk_1.0.15.0_scale-400.msix
